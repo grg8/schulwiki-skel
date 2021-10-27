@@ -1,0 +1,99 @@
+~~NOCACHE~~
+~~NOSIDEBAR~~
+====== Admin ======
+{{page>:einstellungen:@GROUP@:inc_info&noheader&nofooter&noeditbutton}}
+
+===== Neues Ticket =====
+{{NEWDATE>:user:admin}}
+
+===== Meine Tickets =====
+<tabs>
+  * [[#tab-nicht-geschlossen|Todo]]
+  * [[#tab-faellig|Fällig]]
+  * [[#tab-offen|Offen]]
+  * [[#tab-bearbeitung|In Bearbeitung]]
+  * [[#tab-geschlossen|Geschlossen]]
+  * [[#tab-memo|Memo]]
+  * [[#tab-alle|Alle]]
+
+<pane id="tab-nicht-geschlossen">
+---- struct table ----
+schema: p_ticket
+cols       : %lastupdate%,%title%,*,%lasteditor%,%lastsummary%
+dynfilters : 1
+filter     : %pageid% ~ user:admin:*
+filterand  : Status != Geschlossen
+filterand  : Status != Memo
+sort       : ^%lastupdate%
+----
+</pane>
+
+<pane id="tab-faellig">
+---- struct table ----
+schema: p_ticket
+cols       : %lastupdate%,%title%,*,%lasteditor%,%lastsummary%
+width      : 10%,20%,10%,10%,10%,10%,5%,5%,10%,10%
+dynfilters : 1
+filter     : %pageid% ~ user:admin:*
+filterand  : Fällig !=
+filterand  : Status != Geschlossen
+filterand  : Status != Memo
+sort       : Fällig
+----
+</pane>
+
+<pane id="tab-offen">
+---- struct table ----
+schema: p_ticket
+cols       : %lastupdate%,%title%,*,%lasteditor%,%lastsummary%
+dynfilters : 1
+filter     : %pageid% ~ user:admin:*
+filterand  : Status =
+sort       : ^%lastupdate%
+----
+</pane>
+ <pane id="tab-bearbeitung">
+---- struct table ----
+schema: p_ticket
+cols       : %lastupdate%,%title%,*,%lasteditor%,%lastsummary%
+dynfilters : 1
+filter     : %pageid% ~ user:admin:*
+filterand  : Status = In Bearbeitung
+sort       : ^%lastupdate%
+----
+</pane>
+
+<pane id="tab-geschlossen">
+---- struct table ----
+schema: p_ticket
+cols       : %lastupdate%,%title%,*,%lasteditor%,%lastsummary%
+dynfilters : 1
+filter     : %pageid% ~ user:admin:*
+filterand  : Status = Geschlossen
+sort       : ^%lastupdate%
+----
+</pane>
+
+<pane id="tab-memo">
+---- struct table ----
+schema: p_ticket
+cols       :  %lastupdate%,%title%,*,%lasteditor%,%lastsummary%
+width      : 10%,20%,10%,10%,10%,10%,5%,5%,10%,10%
+dynfilters : 1
+filter     : %pageid% ~ user:admin:*
+filterand  : Status = Memo
+sort       : ^%lastupdate%
+----
+</pane>
+
+<pane id="tab-alle">
+---- struct table ----
+schema: p_ticket
+cols       : %lastupdate%,%title%,*,%lasteditor%,%lastsummary%
+dynfilters : 1
+filter     : %pageid% ~ user:admin:*
+sort       : ^%lastupdate%
+----
+</pane>
+
+</tabs>
