@@ -1,4 +1,5 @@
-====== klasse ======
+~~NOCACHE~~
+====== g_klasse ======
 
 ---- struct global ----
 schema: g_klasse

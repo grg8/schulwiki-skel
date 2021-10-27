@@ -1,5 +1,5 @@
 ~~NOCACHE~~
-====== raum ======
+====== g_raum ======
 
 ---- struct global ----
 schema: g_raum

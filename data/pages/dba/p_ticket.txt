@@ -1,5 +1,5 @@
 ~~NOCACHE~~
-====== ticket ======
+====== p_ticket ======
 
 ---- struct table ----
 schema: p_ticket

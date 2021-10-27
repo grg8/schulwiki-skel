@@ -6,10 +6,9 @@
 ===== Neues Ticket =====
 {{NEWDATE>:@ID@}}
 
-----
-
+===== Meine Tickets =====
 <tabs>
-  * [[#tab-nicht-geschlossen|Zu erledigen]]
+  * [[#tab-nicht-geschlossen|Todo]]
   * [[#tab-faellig|Fällig]]
   * [[#tab-offen|Offen]]
   * [[#tab-bearbeitung|In Bearbeitung]]

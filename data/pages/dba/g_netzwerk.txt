@@ -1,4 +1,5 @@
-====== netzwerk ======
+~~NOCACHE~~
+====== g_netzwerk ======
 
 ---- struct global ----
 schema: g_netzwerk

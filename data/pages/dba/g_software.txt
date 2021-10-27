@@ -1,5 +1,5 @@
 ~~NOCACHE~~
-====== software ======
+====== g_software ======
 
 ---- struct global ----
 schema: g_software

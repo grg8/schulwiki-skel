@@ -1,5 +1,5 @@
 ~~NOCACHE~~
-====== anlage ======
+====== g_anlage ======
 
 ---- struct global ----
 schema: g_anlage
