@@ -2,7 +2,6 @@
 
   * [[:doku]]
   * [[:journal]]
-  * [[:notiz]]
 
 ----
 
@@ -10,6 +9,7 @@
   * [[:hardware]]
   * [[:klasse]]
   * [[:netzwerk]]
+  * [[:notiz]]
   * [[:raum]]
   * [[:software]]
   * [[:ticket]]
