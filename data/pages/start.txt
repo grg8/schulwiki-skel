@@ -8,6 +8,3 @@
 ^ Webuntis          | https://webuntis.com                                      |
 
 {{page>:einstellungen:@GROUP@:inc_info&noheader&nofooter&noeditbutton}}
-
-{{page>:user:@USER@&noheader&nofooter&noeditbutton}}
-
