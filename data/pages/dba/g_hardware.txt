@@ -1,5 +1,5 @@
 ~~NOCACHE~~
-====== hardware ======
+====== g_hardware ======
 
 ---- struct global ----
 schema: g_hardware

@@ -1,10 +1,10 @@
 ~~NOCACHE~~
 ~~NOSIDEBAR~~
-====== @!!PAGE@ ======
+====== Admin ======
 {{page>:einstellungen:@GROUP@:inc_info&noheader&nofooter&noeditbutton}}
 
 ===== Neues Ticket =====
-{{NEWDATE>:@ID@}}
+{{NEWDATE>:user:admin}}
 
 ===== Meine Tickets =====
 <tabs>
@@ -19,22 +19,22 @@
 <pane id="tab-nicht-geschlossen">
 ---- struct table ----
 schema: p_ticket
-cols       : %%lastupdate%%,%%title%%,*,%%lasteditor%%,%%lastsummary%%
+cols       : %lastupdate%,%title%,*,%lasteditor%,%lastsummary%
 dynfilters : 1
-filter     : %%pageid%% ~ @ID@:*
+filter     : %pageid% ~ user:admin:*
 filterand  : Status != Geschlossen
 filterand  : Status != Memo
-sort       : ^%%lastupdate%%
+sort       : ^%lastupdate%
 ----
 </pane>
 
 <pane id="tab-faellig">
 ---- struct table ----
 schema: p_ticket
-cols       : %%lastupdate%%,%%title%%,*,%%lasteditor%%,%%lastsummary%%
-width      : 10%%,20%%,10%%,10%%,10%%,10%%,5%%,5%%,10%%,10%%
+cols       : %lastupdate%,%title%,*,%lasteditor%,%lastsummary%
+width      : 10%,20%,10%,10%,10%,10%,5%,5%,10%,10%
 dynfilters : 1
-filter     : %%pageid%% ~ @ID@:*
+filter     : %pageid% ~ user:admin:*
 filterand  : Fällig !=
 filterand  : Status != Geschlossen
 filterand  : Status != Memo
@@ -45,54 +45,54 @@ sort       : Fällig
 <pane id="tab-offen">
 ---- struct table ----
 schema: p_ticket
-cols       : %%lastupdate%%,%%title%%,*,%%lasteditor%%,%%lastsummary%%
+cols       : %lastupdate%,%title%,*,%lasteditor%,%lastsummary%
 dynfilters : 1
-filter     : %%pageid%% ~ @ID@:*
+filter     : %pageid% ~ user:admin:*
 filterand  : Status =
-sort       : ^%%lastupdate%%
+sort       : ^%lastupdate%
 ----
 </pane>
  <pane id="tab-bearbeitung">
 ---- struct table ----
 schema: p_ticket
-cols       : %%lastupdate%%,%%title%%,*,%%lasteditor%%,%%lastsummary%%
+cols       : %lastupdate%,%title%,*,%lasteditor%,%lastsummary%
 dynfilters : 1
-filter     : %%pageid%% ~ @ID@:*
+filter     : %pageid% ~ user:admin:*
 filterand  : Status = In Bearbeitung
-sort       : ^%%lastupdate%%
+sort       : ^%lastupdate%
 ----
 </pane>
 
 <pane id="tab-geschlossen">
 ---- struct table ----
 schema: p_ticket
-cols       : %%lastupdate%%,%%title%%,*,%%lasteditor%%,%%lastsummary%%
+cols       : %lastupdate%,%title%,*,%lasteditor%,%lastsummary%
 dynfilters : 1
-filter     : %%pageid%% ~ @ID@:*
+filter     : %pageid% ~ user:admin:*
 filterand  : Status = Geschlossen
-sort       : ^%%lastupdate%%
+sort       : ^%lastupdate%
 ----
 </pane>
 
 <pane id="tab-memo">
 ---- struct table ----
 schema: p_ticket
-cols       :  %%lastupdate%%,%%title%%,*,%%lasteditor%%,%%lastsummary%%
-width      : 10%%,20%%,10%%,10%%,10%%,10%%,5%%,5%%,10%%,10%%
+cols       :  %lastupdate%,%title%,*,%lasteditor%,%lastsummary%
+width      : 10%,20%,10%,10%,10%,10%,5%,5%,10%,10%
 dynfilters : 1
-filter     : %%pageid%% ~ @ID@:*
+filter     : %pageid% ~ user:admin:*
 filterand  : Status = Memo
-sort       : ^%%lastupdate%%
+sort       : ^%lastupdate%
 ----
 </pane>
 
 <pane id="tab-alle">
 ---- struct table ----
 schema: p_ticket
-cols       : %%lastupdate%%,%%title%%,*,%%lasteditor%%,%%lastsummary%%
+cols       : %lastupdate%,%title%,*,%lasteditor%,%lastsummary%
 dynfilters : 1
-filter     : %%pageid%% ~ @ID@:*
-sort       : ^%%lastupdate%%
+filter     : %pageid% ~ user:admin:*
+sort       : ^%lastupdate%
 ----
 </pane>
 

@@ -1,2 +1,2 @@
-# schulwiki
-Customized dokuwiki
+# schulwiki-skel
+Customized dokuwiki skeleton
