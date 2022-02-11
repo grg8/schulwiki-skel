@@ -1,0 +1,29 @@
+~~NOCACHE~~
+
+  * {{icon>book-open-page-variant}}
+    * [[:doku]]
+    * [[:journal:2021|Journal]]
+
+  * {{icon>file-tree}}
+    * ---- struct list ----
+schema: p_foo
+cols: %title%
+----
+
+  * {{icon>table|DB}}
+    * {{icon>table|DB}} [[:db]]
+    * [[:db:foo]]
+    * [[:anlage]]
+    * [[:hardware]]
+    * [[:Klasse]]
+    * [[:netzwerk]]
+    * [[:notiz]]
+    * [[:raum]]
+    * [[:software]]
+    * [[:ticket]]
+
+  * {{icon>ship-wheel}}
+    * [[:einstellungen]]
+    * [[:dba]]
+    * [[:user]]
+

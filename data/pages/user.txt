@@ -1,5 +1,6 @@
+~~NOSIDEBAR~~
 ~~NOCACHE~~
-{{NEWSIDE>:user#einstellungen:admin:tpl_sidebar}}
+{{NEWSIDE>:user#einstellungen:admin:tpl_sidebar_user}}
 ====== User ======
 
 ===== Neuer User =====

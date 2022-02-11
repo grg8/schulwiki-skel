@@ -1,6 +1,5 @@
 ~~NOCACHE~~
+<catlist :journal -noHead -noHeadTitle -noAddPageButton -sortAscending -exclude:{sidebar} -maxDepth:1 -noNSInBold>
 
-  * [[:journal:2020]]
-  * [[:journal:2021]]
-  * [[:journal:2022]]
+
 

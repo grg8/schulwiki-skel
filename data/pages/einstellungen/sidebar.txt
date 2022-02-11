@@ -1,5 +1,2 @@
 ~~NOCACHE~~
-
-
-  * [[:einstellungen:admin]]
-  * [[:einstellungen:user]]
+<catlist :einstellungen -noHead -noAddPageButton -sortAscending  -exclude:{sidebar} -displayList -noNSInBold -maxDepth:1>

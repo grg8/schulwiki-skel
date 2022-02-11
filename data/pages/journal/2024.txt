@@ -1,5 +1,5 @@
 ~~NOCACHE~~
-{{NEWSIDE>journal:2024#einstellungen:admin:tpl_sidebar}}
+{{NEWSIDE>journal:2024#einstellungen:admin:tpl_sidebar_auto_head}}
 ====== 2024 ======
 
 <btn size="xs">[[journal:2024:2024-01|Jan]]</btn>
@@ -15,5 +15,5 @@
 <btn size="xs">[[journal:2024:2024-11|Nov]]</btn>
 <btn size="xs">[[journal:2024:2024-12|Dez]]</btn>
 
-{{yearbox>year=2024;ns=journal:2024;name=;size=11}}
+{{yearbox>year=2024;ns=journal:2024;name=;size=10}}
 

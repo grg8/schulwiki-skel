@@ -74,9 +74,32 @@ ul.ui-autocomplete {
     margin-top: -1.4em;
 }
 
-/*
+/* Tabelle Seitenschema */
 
-*/
+/* Verstecke 1. Zeile (Zeitstempel) */
+#plugin__struct_output div table tbody tr.row1 {
+    display: none;
+}
+
+/* Tabellenbreite */
+#plugin__struct_output {
+    width: 100%;
+    border: none;
+}
+
+#plugin__struct_output table {
+    border-collapse: collapse;
+}
+
+#plugin__struct_output th {
+    width: 200px;
+}
+
+/* .table-bordered > thead > tr > td, */
+.table-bordered > thead > tr > th {
+    border: 1px solid #ccc !important;
+    font-size: 16px;
+}
 
 /*
 #catlist-menu ul {
@@ -192,10 +215,60 @@ h1.pb-3, h2.pb-3, h3.pb-3, h4.pb-3, h5.pb-3, h6.pb-3 {
 }
 
 /* addnewsidebar */
-.addnewsidebar {
+div.addnewsidebar {
     position: absolute;
     right: 15px;
     top: 0px;
+}
+
+div.addnewpage form input.form-control {
+    width: 200px !important;
+}
+
+/*
+div.addnewpage {
+    position: absolute;
+    right: 60px;
+    top: 5px;
+}
+*/
+
+div.addnewpage form {
+    display: block;
+}
+
+div.addnewpage form input.form-control {
+    width: 87px;
+    display: inline-block;
+}
+
+div.addnewpage form input {
+   padding: 0 4px 0 4px; 
+   height: 24px;
+}
+
+/* consistent sidebar styling with catlist (span) */
+
+.nav > li > span > a:focus, 
+.nav > li > span > a:hover {
+    text-decoration: none;
+    background-color: #eee;
+}
+
+.nav-pills > li > span > a {
+  border-radius: 4px;
+}
+
+.nav > li > span > a {
+  position: relative;
+  display: block;
+}
+
+.nav-pills > li.active > span > a,
+.nav-pills > li.active > span > a:focus,
+.nav-pills > li.active > span > a:hover {
+  color: #fff;
+  background-color: #337ab7;
 }
 
 /*
@@ -229,3 +302,4 @@ div.structaggregation.listaggregation ul {
 div.plugin_minical {
     clear: both;
 }
+

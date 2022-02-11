@@ -1,0 +1,13 @@
+~~NOCACHE~~
+====== p_netzwerk ======
+{{NEWPAGE>:db:p_netzwerk}}
+
+----
+
+---- struct table ----
+schema: p_netzwerk
+cols       :  %title%,%lastupdate%,,%lasteditor%,%lastsummary%,*
+width      : 10%,20%,10%,10%,10%,10%,5%,5%,10%,10%
+dynfilters : 1
+sort       : %title%
+----

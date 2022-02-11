@@ -1,8 +1,8 @@
 ~~NOCACHE~~
 ====== November ======
-{{yearbox>year=2024;months=11;ns=journal:2024;name=;size=11}}
+{{yearbox>year=2024;months=11;ns=journal:2024;name=;size=10}}
 
-===== Tickets =====
+===== Aufgabe =====
 ---- struct table ----
 schema: p_ticket
 cols       : %lastupdate%,%title%,Erstellt,Status,%lasteditor%,%lastsummary%

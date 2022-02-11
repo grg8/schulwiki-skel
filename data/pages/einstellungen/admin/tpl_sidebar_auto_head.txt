@@ -1,0 +1,5 @@
+~~NOCACHE~~
+<catlist :@NS@ -noHead -noAddPageButton -sortAscending -exclude:{sidebar} -maxDepth:1 -noNSInBold>
+
+
+

@@ -1,0 +1,24 @@
+~~NOCACHE~~
+{{NEWSIDE>:doku:schulwiki:notizen#einstellungen:admin:tpl_sidebar_manual}}
+====== Notizen ======
+{{page>:doku:schulwiki:notizen:sidebar&noheader&nofooter&noeditbutton}}
+
+===== Logo =====
+
+-> https://www.dokuwiki.org/template:dokuwiki#changing_the_logo
+
+nach ''data/media'' kopieren
+
+===== "Seite bearbeiten" =====
+
+  * lib/plugins/addnewpage/lang/de-informal/lang.php
+  * lib/plugins/addnewpage/lang/de/lang.php
+
+===== Vollständiger Katalog =====
+
+<code>
+---- struct table ----
+schema: p_anlage,l_raum,l_netzwerk,l_software
+cols: %title%,p_anlage.*,l_raum.*,l_netzwerk.*,l_software.*
+----
+</code>

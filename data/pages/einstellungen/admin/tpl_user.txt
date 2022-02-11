@@ -1,12 +1,12 @@
 ~~NOCACHE~~
 ~~NOSIDEBAR~~
-====== @!!PAGE@ ======
+====== @PAGE@ ======
 {{page>:einstellungen:@GROUP@:inc_info&noheader&nofooter&noeditbutton}}
 
-===== Neues Ticket =====
+===== Neue Aufgabe =====
 {{NEWDATE>:@ID@}}
 
-===== Meine Tickets =====
+===== Meine Aufgaben =====
 <tabs>
   * [[#tab-nicht-geschlossen|Todo]]
   * [[#tab-faellig|Fällig]]

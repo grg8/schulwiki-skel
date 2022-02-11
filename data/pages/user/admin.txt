@@ -3,10 +3,10 @@
 ====== Admin ======
 {{page>:einstellungen:@GROUP@:inc_info&noheader&nofooter&noeditbutton}}
 
-===== Neues Ticket =====
+===== Neue Aufgabe =====
 {{NEWDATE>:user:admin}}
 
-===== Meine Tickets =====
+===== Meine Aufgaben =====
 <tabs>
   * [[#tab-nicht-geschlossen|Todo]]
   * [[#tab-faellig|Fällig]]

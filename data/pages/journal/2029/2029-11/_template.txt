@@ -1,11 +1,11 @@
 ~~NOCACHE~~
 ====== @PAGE@ ======
-{{yearbox>year=2029;months=11;ns=journal:2029;name=;size=11}}
+{{yearbox>year=2029;months=11;ns=journal:2029;name=;size=10}}
 
-===== Tickets =====
+===== Aufgabe =====
 ---- struct table ----
 schema: p_ticket
-cols       :  %%lastupdate%%,%%title%%,Erstellt,Status,%%lasteditor%%,%%lastsummary%%
+cols       :  %%lastupdate%%,%%title%%,*,%%lasteditor%%,%%lastsummary%%
 dynfilters : 1
 csv        : 0
 filter     : Fällig = $PAGE$

@@ -1,20 +1,10 @@
 ~~NOCACHE~~
 
-  * {{icon>book-open-page-variant}}
-    * [[:doku]]
-    * [[:journal:2021|Journal]]
+  * [[:doku|{{icon>book-open-page-variant|Doku}}]]
+  * [[:katalog|{{icon>file-tree|Katalog}}]] 
+  * [[:db|{{icon>table|DB}}]] 
+  * [[:user|{{icon>account-multiple|User}}]]
+  * [[:journal|{{icon>calendar-clock|Journal}}]]
+  * [[:einstellungen|{{icon>ship-wheel|Einstellungen}}]]
 
-  * {{icon>file-tree}}
-    * [[:anlage]]
-    * [[:hardware]]
-    * [[:Klasse]]
-    * [[:netzwerk]]
-    * [[:notiz]]
-    * [[:raum]]
-    * [[:software]]
-    * [[:ticket]]
 
-  * {{icon>ship-wheel}}
-    * [[:einstellungen]]
-    * [[:dba]]
-    * [[:user]]

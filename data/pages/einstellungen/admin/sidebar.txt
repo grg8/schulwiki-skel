@@ -1,7 +1,5 @@
 ~~NOCACHE~~
+<catlist :einstellungen:admin -noHead -noHeadTitle -noAddPageButton -sortAscending -exclude:{sidebar} -maxDepth:1 -noNSInBold>
 
-  * [[:einstellungen:admin:inc_info]]
-  * [[:einstellungen:admin:inc_navbar]]
-  * [[:einstellungen:admin:inc_sidebar]]
-  * [[:einstellungen:admin:tpl_sidebar|tpl_sidebar]]
-  * [[:einstellungen:admin:tpl_user|tpl_user]]
+
+

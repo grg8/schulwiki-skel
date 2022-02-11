@@ -1,0 +1,5 @@
+~~NOCACHE~~
+<catlist :db -noHead -noHeadTitle -noAddPageButton -sortAscending -exclude:{sidebar} -maxDepth:1 -noNSInBold>
+
+
+

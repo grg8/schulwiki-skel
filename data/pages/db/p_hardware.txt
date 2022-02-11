@@ -1,0 +1,13 @@
+~~NOCACHE~~
+====== p_hardware ======
+{{NEWPAGE>:db:p_hardware}}
+
+----
+
+---- struct table ----
+schema: p_hardware
+cols       :  %title%,%lastupdate%,,%lasteditor%,%lastsummary%,*
+width      : 10%,20%,10%,10%,10%,10%,5%,5%,10%,10%
+dynfilters : 1
+sort       : %title%
+----

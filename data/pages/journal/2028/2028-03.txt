@@ -1,8 +1,8 @@
 ~~NOCACHE~~
 ====== März ======
-{{yearbox>year=2028;months=03;ns=journal:2028;name=;size=11}}
+{{yearbox>year=2028;months=03;ns=journal:2028;name=;size=10}}
 
-===== Tickets =====
+===== Aufgabe =====
 ---- struct table ----
 schema: p_ticket
 cols       : %lastupdate%,%title%,Erstellt,Status,%lasteditor%,%lastsummary%

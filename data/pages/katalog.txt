@@ -1,0 +1,7 @@
+~~NOSIDEBAR~~
+~~NOCACHE~~
+{{NEWSIDE>:katalog#einstellungen:admin:tpl_sidebar_manual}}
+====== Katalog ======
+{{page>:katalog:sidebar&noheader&nofooter&noeditbutton}}
+
+

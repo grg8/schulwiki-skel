@@ -1,8 +1,87 @@
+~~NOSIDEBAR~~
 ~~NOCACHE~~
 ====== Journal ======
-{{page>:journal:sidebar&noheader&nofooter&noeditbutton}}
+
+{{page>:journal:@YEAR@&noheader&nofooter&noeditbutton}}
+{{NEWSIDE>:journal#einstellungen:admin:tpl_sidebar_auto}}
+
+===== Aufgabe =====
+
+{{section>:user:@USER@#neue_aufgabe&nofooter&noeditbutton}}
 
 ----
 
-{{page>:journal:@YEAR@&noheader&nofooter&noeditbutton}}
-{{NEWSIDE>:journal#einstellungen:admin:tpl_sidebar}}
+<tabs>
+  * [[#tab-nicht-geschlossen|Todo]]
+  * [[#tab-offen|Offen]]
+  * [[#tab-bearbeitung|In Bearbeitung]]
+  * [[#tab-geschlossen|Geschlossen]]
+  * [[#tab-memo|Memo]]
+  * [[#tab-alle|Alle]]
+
+<pane id="tab-nicht-geschlossen">
+---- struct table ----
+schema: p_ticket
+cols       :  %lastupdate%,%title%,*,%lasteditor%,%lastsummary%
+width      : 10%,20%,10%,10%,10%,10%,5%,5%,10%,10%
+dynfilters : 1
+filter     : Status != Geschlossen
+filterand  : Status != Memo
+sort       : ^%lastupdate%
+----
+</pane>
+
+<pane id="tab-offen">
+---- struct table ----
+schema: p_ticket
+cols       :  %lastupdate%,%title%,*,%lasteditor%,%lastsummary%
+width      : 10%,20%,10%,10%,10%,10%,5%,5%,10%,10%
+dynfilters : 1
+filter     : Status =
+sort       : ^%lastupdate%
+----
+</pane>
+ <pane id="tab-bearbeitung">
+---- struct table ----
+schema: p_ticket
+cols       :  %lastupdate%,%title%,*,%lasteditor%,%lastsummary%
+width      : 10%,20%,10%,10%,10%,10%,5%,5%,10%,10%
+dynfilters : 1
+filter     : Status = In Bearbeitung
+sort       : ^%lastupdate%
+----
+</pane>
+
+<pane id="tab-geschlossen">
+---- struct table ----
+schema: p_ticket
+cols       :  %lastupdate%,%title%,*,%lasteditor%,%lastsummary%
+width      : 10%,20%,10%,10%,10%,10%,5%,5%,10%,10%
+dynfilters : 1
+filter     : Status = Geschlossen
+sort       : ^%lastupdate%
+----
+</pane>
+
+<pane id="tab-memo">
+---- struct table ----
+schema: p_ticket
+cols       :  %lastupdate%,%title%,*,%lasteditor%,%lastsummary%
+width      : 10%,20%,10%,10%,10%,10%,5%,5%,10%,10%
+dynfilters : 1
+filter     : Status = Memo
+sort       : ^%lastupdate%
+----
+</pane>
+
+<pane id="tab-alle">
+---- struct table ----
+schema: p_ticket
+cols       :  %lastupdate%,%title%,*,%lasteditor%,%lastsummary%
+width      : 10%,20%,10%,10%,10%,10%,5%,5%,10%,10%
+dynfilters : 1
+sort       : ^%lastupdate%
+----
+</pane>
+
+</tabs>

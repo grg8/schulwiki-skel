@@ -1,13 +1,13 @@
 ~~NOCACHE~~
 ~~NOSIDEBAR~~
-====== @!!PAGE@ ======
+====== @PAGE@ ======
 
 
-===== Neues Ticket =====
+===== Neue Aufgabe =====
 {{NEWDATE>:@ID@}}
 
 
-===== Meine Tickets =====
+===== Meine Aufgaben =====
 <tabs>
   * [[#tab-nicht-geschlossen|Todo]]
   * [[#tab-faellig|Fällig]]

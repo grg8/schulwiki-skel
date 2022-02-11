@@ -1,6 +1,7 @@
 ~~NOCACHE~~
 ~~NOSIDEBAR~~
 ====== Willkommen im Schulwiki ======
+
 |< 100% 240px >|
 ^ Anschrift         | Bundesgymnasium BG XLII \\ Grünweg 2520 \\ 1000 Tharbad   |
 ^ Schulkennzahl     | 123456                                                    |

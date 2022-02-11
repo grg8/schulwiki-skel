@@ -1,4 +1,5 @@
+~~NOSIDEBAR~~
 ~~NOCACHE~~
-{{NEWSIDE>:doku#einstellungen:admin:tpl_sidebar}}
+{{NEWSIDE>:doku#einstellungen:admin:tpl_sidebar_manual}}
 ====== Doku ======
 {{page>:doku:sidebar&noheader&nofooter&noeditbutton}}

@@ -1,0 +1,9 @@
+~~NOCACHE~~
+{{NEWSIDE>:doku:schulwiki#einstellungen:admin:tpl_sidebar_manual}}
+====== Schulwiki ======
+{{page>:doku:schulwiki:sidebar&noheader&nofooter&noeditbutton}}
+
+---- struct table ----
+schema: p_anlage,l_raum,l_netzwerk,l_software
+cols: %title%,p_anlage.*,l_raum.*,l_netzwerk.*,l_software.*
+----
