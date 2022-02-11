@@ -1,5 +1,4 @@
 ~~NOCACHE~~
-{{NEWSIDE>journal:2025#einstellungen:admin:tpl_sidebar_auto_head}}
 ====== 2025 ======
 
 <btn size="xs">[[journal:2025:2025-01|Jan]]</btn>

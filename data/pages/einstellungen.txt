@@ -1,6 +1,5 @@
 ~~NOSIDEBAR~~
 ~~NOCACHE~~
-{{NEWSIDE>:einstellungen#einstellungen:admin:tpl_sidebar_auto}}
 ====== Einstellungen ======
 
 {{page>:einstellungen:sidebar&noheader&nofooter&noeditbutton}}

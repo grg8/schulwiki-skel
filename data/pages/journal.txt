@@ -1,9 +1,8 @@
 ~~NOSIDEBAR~~
 ~~NOCACHE~~
 ====== Journal ======
-
 {{page>:journal:@YEAR@&noheader&nofooter&noeditbutton}}
-{{NEWSIDE>:journal#einstellungen:admin:tpl_sidebar_auto}}
+
 
 ===== Aufgabe =====
 

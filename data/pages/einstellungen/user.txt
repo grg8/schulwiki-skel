@@ -1,6 +1,4 @@
 ~~NOCACHE~~
-{{NEWSIDE>:einstellungen:user#einstellungen:admin:tpl_sidebar_auto}}
 ====== User ======
-
 {{page>:einstellungen:user:sidebar&noheader&nofooter&noeditbutton}}
 

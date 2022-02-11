@@ -1,7 +1,5 @@
 ~~NOCACHE~~
-{{NEWSIDE>:einstellungen:allgemein#einstellungen:admin:tpl_sidebar_auto}}
 ====== Allgemein ======
-{{page>:einstellungen:allgemein:sidebar&noheader&nofooter&noeditbutton}}
 
 Die Seitenleiste und Navigation inkludieren je nach Gruppe, daher ist der Inhalt der Seiten zu beachten:
 

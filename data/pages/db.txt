@@ -1,10 +1,5 @@
 ~~NOSIDEBAR~~
 ~~NOCACHE~~
-{{NEWSIDE>:db#einstellungen:admin:tpl_sidebar_auto}}
 ====== DB ======
-{{NEWPAGE>:db}}
-
-----
-
 {{page>:db:sidebar&noheader&nofooter&noeditbutton}}
 
